@@ -1,0 +1,5 @@
+project: nanort
+target: nanort
+
+cmds:
+  - cmd: /repo/build/bin/nanosg @@
