@@ -2,4 +2,4 @@ project: nanort
 target: nanosg
 
 cmds:
-  - cmd: /repo/build/bin/nanosg @@
+  - cmd: /nanosg @@
