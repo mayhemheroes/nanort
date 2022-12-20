@@ -1,0 +1,6 @@
+project: nanort
+target: vnormalize
+
+cmds:
+  - cmd: /fuzz_vnormalize
+    libfuzzer: true
