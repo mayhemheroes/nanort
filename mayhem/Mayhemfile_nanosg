@@ -1,0 +1,10 @@
+project: nanort
+target: nanosg
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/nanosg/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_nanosg
+    libfuzzer: true
